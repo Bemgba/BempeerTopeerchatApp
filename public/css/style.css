@@ -1,0 +1,108 @@
+.welcome{
+    background-image: url('../images/ogun_state_judicial_complex_view.jpg');
+    background-size:cover;
+    background-position: center;
+    color: white;
+    padding-top: 180px;
+    margin-left: -15px;
+    margin-right: -13px;
+}
+
+
+.card-ic{
+    width: 40px;
+}
+
+.bd-footer{
+
+        /* position: absolute; */
+        bottom: 0;
+        width: 100%;
+        /* height: 2.5rem;            Footer height */
+}
+
+.search-bar {
+    width: 430px !important;
+}
+
+.page-container {
+    position: relative;
+    min-height: 91vh;
+  }
+  .page-link {
+    position: relative;
+    display: block;
+    color: #198754 !important;
+  }
+  .page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+}
+.nav-pills button.nav-link.active, button.nav-pills button.show>.nav-link {
+  color: #fff !important;
+  background-color: #1b5e20 !important;
+}
+button.nav-link:focus, button.nav-link:hover {
+  color: #27842e !important;
+}
+
+button.nav-link {
+  color: #008c0a !important;
+}
+
+  .form-label {
+    font-weight: bold;
+}
+
+.bg-shadow{
+    
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  
+
+	box-sizing: border-box;
+}
+
+.select2-container {
+    text-align: left;
+}
+
+/*video */
+/* button {
+  margin: 0 20px 0 0;
+  width: 83px;
+}
+
+button#hangupButton {
+    margin: 0;
+}
+
+video {
+  --width: 45%;
+  width: var(--width);
+  height: calc(var(--width) * 0.75);
+  margin: 0 0 20px 0;
+  vertical-align: top;
+}
+
+video#localVideo {
+  margin: 0 20px 20px 0;
+} */
+
+@media screen and (max-width: 400px) {
+  button {
+    width: 83px;
+    margin: 0 11px 10px 0;
+  }
+
+  video {
+    height: 90px;
+    margin: 0 0 10px 0;
+    width: calc(50% - 7px);
+  }
+  video#localVideo {
+    margin: 0 10px 20px 0;
+  }
+
+}
